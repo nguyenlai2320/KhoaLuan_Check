@@ -1,0 +1,114 @@
+::placeholder{
+    color: var(--4th-color);
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, var(--3rd-color), var(--4th-color));
+    font-family: var(--font-primary);
+    position: relative;
+}
+#frm-signup{
+    width: 80%;
+    height: 90vh;
+    border: 5px solid var(--1st-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    font-size: 1.6rem;
+}
+h2{
+    width: 100%;
+    height: 9vh;
+    text-align: center;
+    line-height: 7vh;
+    font-weight: bold;
+}
+.content{
+    width: 100%;
+    height: 83vh;
+}
+.row{
+    width: 100%;
+    height: 17vh;
+    margin-bottom: 1vh;
+    display: flex;
+}
+.column-first{
+    width: 100%;
+    height: 100%;
+    padding-left: 2vw;
+}
+.column-second{
+    width: 100%;
+    height: 100%;
+    padding-left: 2vw;
+    margin-left: 10px;
+}
+label, span{
+    display: block;
+    font-weight: bold;
+}
+span.error-msg{
+    color: tomato;
+}
+.column input{
+    width: 90%;
+    height: 6vh;
+    margin: 7px 0;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 10px;
+    outline: none;
+    font-size: 1.6rem;
+}
+.column input:hover, .column input:focus{
+    border: 3px solid var(--1st-color);
+}
+.row-fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-fifth{
+    width: 100%;
+    height: 8vh;
+}
+#btn-submit{
+    width: 15vw;
+    height: 6vh;
+    border: 1px solid var(--1st-color);
+    border-radius: 5px;
+    font-family: var(--font-primary);
+    font-weight: bold;
+}
+#btn-submit:hover, #btn-submit:focus{
+    border: 3px solid var(--1st-color);
+    background-color: var(--3rd-color);
+}
+.return-homepage i{
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.return-homepage a{
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.return-homepage a:hover{
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+}
+input[type="checkbox"]{
+    width: 15px;    
+}
+.show-pass{
+    display: flex;
+    align-items: center;
+}
+.show-pass span{
+    font-weight: normal;
+    margin-left: 5px;
+}

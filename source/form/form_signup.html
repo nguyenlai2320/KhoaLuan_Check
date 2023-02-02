@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANG ĐĂNG KÝ</title>
+    <link rel="stylesheet" href="../../assets/css/base.css">
+    <link rel="stylesheet" href="../../assets/css/signup.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css' integrity='sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==' crossorigin='anonymous'/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="icon" href="../../assets/icon/signup.png" type="image/x-icon" />
+</head>
+<body>
+    <div class="wrapper">
+        <form action="#" id="frm-signup" class="frm-signup" method="post" autocomplete="off">
+            <h2>ĐĂNG KÝ TÀI KHOẢN</h2>
+            <div class="content">
+                <div class="row row-first">
+                    <div class="column column-first">
+                        <label for="fullname">HỌ VÀ TÊN</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Nguyễn Hoàng Lai">
+                        <span class="error-msg"></span>
+                    </div>
+                    <div class="column column-second">
+                        <label for="address">ĐỊA CHỈ</label>
+                        <input type="text" id="address" name="address" placeholder="Bến Cầu, Tây Ninh">
+                        <span class="error-msg"></span>
+                    </div>
+                </div>
+                <div class="row row-second">
+                    <div class="column column-first">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" placeholder="nguyenlai17xx@gmail.com">
+                        <span class="error-msg"></span>
+                    </div>
+                    <div class="column column-second">
+                        <label for="phoneNumber">SỐ ĐIỆN THOẠI</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="086xxxx706">
+                        <span class="error-msg"></span>
+                    </div>
+                </div>
+                <div class="row row-third">
+                    <div class="column column-first">
+                        <label for="passv1">MẬT KHẨU</label>
+                        <input type="password" id="password" name="password">
+                        <span class="error-msg"></span>
+                        <div class="show-pass">
+                            <input type="checkbox" name="check" id="check"> 
+                            <span>Hiển thị mật khẩu</span>
+                        </div>
+                    </div>
+                    <div class="column column-second">
+                        <label for="passv2">XÁC NHẬN MẬT KHẨU</label>
+                        <input type="password" id="passv2" name="passv2">
+                        <span class="error-msg"></span>
+                        <div class="show-pass">
+                            <input type="checkbox" name="checkv2" id="checkv2"> 
+                            <span>Hiển thị mật khẩu</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-fourth">
+                    <div class="column-merge">
+                        <button type="submit" id="btn-submit" name="btn-submit" value="ĐĂNG KÝ">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+                <div class="row row-fifth">
+                    <div class="return-homepage">
+                        <i class="fa-solid fa-house"></i> 
+                        <a href="../../index.html">
+                            TRANG CHỦ
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="../../assets/js/show-pass.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+#wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, var(--3rd-color), var(--4th-color));
+    font-family: var(--font-primary);
+    position: relative;
+}
+#frm-login{
+    width: 60vw;
+    height: 80vh;
+    border: 5px solid var(--1st-color);
+    border-radius: 10px;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+    font-weight: bold;
+}
+.content{
+    width: 100%;
+    height: 70vh;
+    font-size: 1.6rem;
+}
+.form-group{
+    width: 100%;
+    height: 15vh;
+    margin-top: 2px;
+    margin-left: 10%;
+}
+.form-group:nth-child(3){
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.form-group:nth-child(4){
+    position: relative;
+    margin-left: 0;
+}
+.form-group:nth-child(5){
+    text-align: center;
+    margin-left: 0;
+}
+p{
+    margin: 10px 0;
+    font-style: italic;
+}
+.methods-login{
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+}
+label, span{
+    display: block;
+    font-weight: bold;
+}
+input{
+    width: 80%;
+    height: 6vh;
+    margin: 5px 0;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    padding: 5px 10px;
+    font-size: 1.6rem;
+}
+input:focus{
+    border: 3px solid var(--1st-color);
+}
+.error-msg{
+    color: tomato;
+}
+input[type="checkbox"]{
+    width: 15px;
+    margin-right: 10px;
+}
+.show-password{
+    display: flex;
+    align-items: center;
+}
+.forget-password{
+    position: absolute;
+    right: 12vw;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    font-weight: bold;
+}
+a.link-signup{
+    font-weight: bold;
+}
+#btn-submit{
+    width: 15vw;
+    height: 6vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--1st-color);
+    font-weight: bold;
+    font-family: var(--font-primary);
+    cursor: pointer;
+    border-radius: 5px;
+}
+#btn-submit:hover, #btn-submit:focus{
+    border: 3px solid var(--1st-color);
+    background-color: var(--3rd-color);
+}
+.copyright{
+    width: 100%;
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 920px) {
+    .form-group:nth-child(3){
+        display: block;
+    }
+    .show-password{
+        display: inline-block;
+    }
+    .forget-password{
+        display: block;
+    }
+}

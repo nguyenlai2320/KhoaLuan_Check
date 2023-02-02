@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANG ĐĂNG NHẬP</title>
+    <link rel="stylesheet" href="../../assets/css/base.css">
+    <link rel="stylesheet" href="../../assets/css/login.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css' integrity='sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==' crossorigin='anonymous'/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="icon" href="../../assets/icon/login.png" type="image/x-icon" />
+</head>
+<body>
+    <div id="wrapper">
+        
+        <form action="#" class="frm-login" id="frm-login" method="post" autocomplete="off">
+            <h2>ĐĂNG NHẬP TÀI KHOẢN</h2>
+            <div class="content">
+                <div class="form-group">
+                    <label for="username">TÀI KHOẢN</label>
+                    <input type="text" name="username" id="username" required>
+                    <span class="error-msg"></span>
+                </div>
+                <div class="form-group">
+                    <label for="password">MẬT KHẨU</label>
+                    <input type="password" name="password" id="password" required>
+                    <span class="error-msg"></span>
+                </div>
+                <div class="form-group">
+                    <div class="show-password">
+                        <input type="checkbox" name="check" id="check">
+                        Hiển thị mật khẩu
+                    </div>
+                    <div class="forget-password">
+                        <a href="../../index.html">Trang chủ</a> |
+                        <a href="#">Quên mật khẩu</a> | 
+                        <a href="../../admin/form/frmAdminLg.html">Tôi là Quản trị viên</a>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" name="btn-submit" id="btn-submit" value="ĐĂNG NHẬP">ĐĂNG NHẬP</button>
+                </div>
+                <div class="form-group">
+                    <p>Nếu chưa có tài khoản, bạn có thể đăng ký tại <a class="link-signup" href="./form_signup.html">đây</a> hoặc đăng nhập bằng tài khoản bên dưới</p>
+                    <div class="methods-login">
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i>                        </a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </form>
+        
+        <div class="copyright">
+            &copy; Bản quyền website thuộc về [Nguyễn Hoàng Lai - 19468461] - [Nguyễn Hoàng Lý - 19439051]
+        </div>
+
+    </div>
+    
+    <script src="../../assets/js/show-pass.js"></script>
+</body>
+</html>
